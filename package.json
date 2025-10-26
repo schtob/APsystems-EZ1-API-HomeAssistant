@@ -1,0 +1,40 @@
+{
+  "name": "iobroker.apsystems-ez1-m",
+  "version": "0.0.1",
+  "description": "APsystems EZ1-M API adapter for ioBroker",
+  "author": {
+    "name": "Your Name",
+    "email": "your@email.com"
+  },
+  "homepage": "https://github.com/your-github/ioBroker.apsystems-ez1-m",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "APsystems",
+    "EZ1-M",
+    "template",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-github/ioBroker.apsystems-ez1-m.git"
+  },
+  "dependencies": {
+    "@iobroker/adapter-core": "^3.0.3"
+  },
+  "devDependencies": {
+    "@iobroker/testing": "^4.1.0",
+    "@types/node": "^20.8.3",
+    "typescript": "^5.2.2"
+  },
+  "main": "build/main.js",
+  "scripts": {
+    "test": "echo "Error: no test specified" && exit 1",
+    "build": "tsc -p tsconfig.build.json",
+    "watch": "tsc -p tsconfig.build.json --watch"
+  },
+  "bugs": {
+    "url": "https://github.com/your-github/ioBroker.apsystems-ez1-m/issues"
+  },
+  "readmeFilename": "README.md"
+}

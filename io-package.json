@@ -1,0 +1,55 @@
+{
+  "common": {
+    "name": "apsystems-ez1-m",
+    "version": "0.0.1",
+    "news": {
+      "0.0.1": {
+        "en": "initial release",
+        "de": "Erstveröffentlichung"
+      }
+    },
+    "title": "APsystems EZ1-M",
+    "titleLang": {
+      "en": "APsystems EZ1-M",
+      "de": "APsystems EZ1-M"
+    },
+    "desc": {
+      "en": "Communicate with your APsystems EZ1-M solar inverter",
+      "de": "Kommuniziere mit deinem APsystems EZ1-M Solar-Wechselrichter"
+    },
+    "authors": [
+      "Your Name <your@email.com>"
+    ],
+    "keywords": [
+      "ioBroker",
+      "APsystems",
+      "EZ1-M"
+    ],
+    "license": "MIT",
+    "platform": "Javascript/Node.js",
+    "main": "build/main.js",
+    "icon": "apsystems-ez1-m.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/your-github/ioBroker.apsystems-ez1-m/main/admin/apsystems-ez1-m.png",
+    "readme": "https://github.com/your-github/ioBroker.apsystems-ez1-m/blob/main/README.md",
+    "loglevel": "info",
+    "mode": "daemon",
+    "type": "climate-control",
+    "compact": true,
+    "connectionType": "local",
+    "dataSource": "poll",
+    "adminUI": {
+      "tab": "materialize"
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=3.3.22"
+      }
+    ]
+  },
+  "native": {
+    "inverter_ip": "192.168.1.100"
+  },
+  "objects": [],
+  "instanceObjects": []
+}
